@@ -52,3 +52,6 @@ For support, questions, or feedback regarding the DevopsAiProject Crew or crewAI
 - [Chat with our docs](https://chatg.pt/DWjSBZn)
 
 Let's create wonders together with the power and simplicity of crewAI.
+
+![report](https://github.com/user-attachments/assets/bce26b8f-ba34-4da1-b40a-167d6d7f3b13)
+
