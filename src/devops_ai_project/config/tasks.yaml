@@ -1,0 +1,14 @@
+research_task:
+  description: >
+    Research how {topic} is affecting routine tasks in 2025. Focus on practical applications and benefits.
+  expected_output: >
+    A list of 3 bullet points summarizing the key impacts of {topic}.
+  agent: researcher
+
+reporting_task:
+  description: >
+    Expand each bullet point into a short section in markdown. Keep it clear and concise.
+    Do not use code blocks (```).
+  expected_output: >
+    A markdown-formatted report with 3 short sections.
+  agent: reporting_analyst

@@ -1,0 +1,23 @@
+[project]
+name = "devops_ai_project"
+version = "0.1.0"
+description = "devops-ai-project using crewAI"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "crewai[tools]>=0.114.0,<1.0.0"
+]
+
+[project.scripts]
+devops_ai_project = "devops_ai_project.main:run"
+run_crew = "devops_ai_project.main:run"
+train = "devops_ai_project.main:train"
+replay = "devops_ai_project.main:replay"
+test = "devops_ai_project.main:test"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"
+entrypoint = "crew.py"

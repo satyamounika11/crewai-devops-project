@@ -1,0 +1,25 @@
+.env
+__pycache__/
+.DS_Store
+
+# Ignore virtual environment directories
+venv/
+env/
+crew/
+
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore lock files (optional, if not needed for your project)
+*.lock
+
+# Ignore IDE-specific files (e.g., VSCode, PyCharm)
+.vscode/
+.idea/
+
+# Ignore temporary files
+*.log
+*.bak
+
